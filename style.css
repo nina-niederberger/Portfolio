@@ -1,0 +1,76 @@
+html,body{
+  height:100%;
+  margin:0;
+  background:var(--bg);
+  color:var(--text);
+  font-family: "Berthold Akzidenz Grotesk", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+}
+
+img {
+    width: 100%;
+}
+
+/* Fixer Header oben */
+.main-header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 20px;
+  background: var(--header-bg);
+  backdrop-filter: blur(6px); /* schöner Effekt, optional */
+  z-index: 1000;
+}
+
+/* Links / Rechts */
+.header-left,
+.header-right{
+  font-size: 12px;
+  line-height:1;
+  text-transform: none;
+  color: white;
+}
+
+/* Damit Inhalt nicht vom Header verdeckt wird */
+.content{
+  padding: 100px 20px 40px; /* top padding mindestens Headerhöhe */
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* Responsive: Schriftgröße anpassen bei kleinen Bildschirmen */
+@media (max-width:560px) {
+    }
+  .header-left, .header-right { 
+    font-size: 15px;
+  }
+
+/* Hintergrundfarbe */
+body {
+    background-color: black;
+}
+
+
+
+.swiper-button-vorherige,
+.swiper-button-naechste {
+    position: absolute;
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 100;
+}
+.swiper-button-vorherige {
+    left: 42px;
+}
+.swiper-button-naechste {
+    right: 42px;
+}

@@ -1,0 +1,177 @@
+html,body{
+  height:100%;
+  margin:0;
+  background:var(--bg);
+  color:var(--text);
+  font-family: "Berthold Akzidenz Grotesk", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+
+}
+.main-header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 20px;
+  background: var(--header-bg);
+  backdrop-filter: blur(6px); /* schöner Effekt, optional */
+  z-index: 1000;
+}
+
+/* Links / Rechts */
+.header-left,
+.header-right{
+  font-size: 12px;
+  line-height:1;
+  color: white;
+}
+
+body {
+    background-color: black;
+}
+
+/* Damit Inhalt nicht vom Header verdeckt wird */
+.content{
+  padding: 100px 20px 40px; /* top padding mindestens Headerhöhe */
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+
+.Vorprojekt-grid__title {
+  grid-area: title;
+  color: white;
+  font-size: 100px;
+  line-height: 180px;
+  margin-top: -80px;
+  margin-bottom: -60px;
+}
+
+.Vorprojekt-grid__caption {
+  grid-area: caption;
+  color: white;
+  margin-bottom: 60px;
+}
+
+.Vorprojekt-grid__hero {
+  grid-area: hero;
+  margin: -15px;
+ 
+}
+
+.Vorprojekt-grid__text {
+  grid-area: text;
+  color: white;
+  margin-top: -80px;
+}
+
+.Vorprojekt-grid__image-1 {
+  grid-area: image-1;  
+}
+
+.Vorprojekt-grid__image-2 {
+  grid-area: image-2;
+}
+
+.Vorprojekt-grid__image-3 {
+  grid-area: image-3;  
+}
+
+.Vorprojekt-grid__image-4 {
+  grid-area: image-4;  
+}
+
+.Vorprojekt-grid__image-5 {
+    grid-area: image-5;
+}
+
+.Vorprojekt-grid__image-6 {
+    grid-area: image-6;
+}
+
+
+.Vorprojekt_draft-1 {
+    grid-area: image-1a;
+}
+
+.Vorprojekt_draft-2 {
+    grid-area: image-2a;
+}
+
+.Vorprojekt_draft-3 {
+    grid-area: image-3a;
+}
+
+.Vorprojekt_draft-4 {
+    grid-area: image-4a;
+}
+
+.Vorprojekt_draft-5 {
+    grid-area: image-5a;
+}
+
+.Vorprojekt_draft-6 {
+    grid-area: image-6a;
+}
+
+.Vorprojekt_draft-7 {
+    grid-area: image-7a;
+}
+
+.Vorprojekt_draft-8 {
+    grid-area: image-8a;
+}
+
+.Vorprojekt_draft-9 {
+    grid-area: image-9a;
+}
+
+.Vorprojekt_draft-10 {
+    grid-area: image-10a;
+}
+
+.Vorprojekt_draft-11 {
+    grid-area: image-11a;
+}
+
+.Vorprojekt_draft-12 {
+    grid-area: image-12a;
+}
+
+
+.Vorprojekt-grid {
+  display: grid;
+  padding: 0 15px 15px 15px;
+  gap: 15px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+    "hero hero hero hero"
+    "title title title title "
+    "text text . ."
+    "caption caption . ."
+    "image-1 image-1 image-1 image-1"
+    "image-2 image-2 image-3 image-3"
+    "image-4 image-4 image-5 image-5"
+    "image-6 image-6 . ." 
+    "image-1a image-2a image-3a image-4a"
+    "image-5a image-6a image-7a image-8a"
+    "image-9a image-10a image-11a image-12a" ;
+   
+} 
+
+.nav {
+  display: grid;
+  align-items: center;
+  padding: 15px 15px;
+  top: 0;
+  position: sticky;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
