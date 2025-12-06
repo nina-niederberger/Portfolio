@@ -106,9 +106,6 @@ body {
     grid-area: image-6;
 }
 
-.Blickwechsel-grid__image-7 {
-    grid-area: image-7;
-}
 
 .Blickwechsel-grid__image-8 {
     grid-area: image-8;
@@ -164,10 +161,9 @@ body {
     "image-3 image-3 image-4 image-4"
     "image-5 image-5 image-6 image-6" 
     "caption-2 caption-2 . ."
-    "image-7 image-7 image-7 image-7"
+    "image-12 image-12 image-12 image-12" 
     "image-8 image-8 image-9 image-9"
     "image-10 image-10 image-11 image-11" 
-    "image-12 image-12 image-12 image-12" 
     "caption-3 caption-3 . ."
     "image-13 image-13 video-1 video-1" ;
 
