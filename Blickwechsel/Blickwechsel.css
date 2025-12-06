@@ -46,7 +46,7 @@ body {
   grid-area: title;
   color: white;
   font-size: 100px;
-  line-height: 180px;
+  line-height: 160px;
   margin-top: -80px;
   margin-bottom: -60px;
 }
@@ -56,6 +56,19 @@ body {
   color: white;
   margin-bottom: 60px;
 }
+
+.Blickwechsel-grid__caption-2 {
+    grid-area: caption-2;
+    color: white;
+    margin-bottom: 60px;
+}
+
+.Blickwechsel-grid__caption-3 {
+    grid-area: caption-3;
+    color: white;
+    margin-bottom: 60px;
+}
+
 
 .Blickwechsel-grid__hero {
   grid-area: hero;
@@ -150,10 +163,12 @@ body {
     "image-1 image-1 image-2 image-2"
     "image-3 image-3 image-4 image-4"
     "image-5 image-5 image-6 image-6" 
+    "caption-2 caption-2 . ."
     "image-7 image-7 image-7 image-7"
     "image-8 image-8 image-9 image-9"
     "image-10 image-10 image-11 image-11" 
     "image-12 image-12 image-12 image-12" 
+    "caption-3 caption-3 . ."
     "image-13 image-13 video-1 video-1" ;
 
 } 
