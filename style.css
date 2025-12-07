@@ -23,7 +23,6 @@ img {
   align-items: center;
   padding: 12px 20px;
   background: var(--header-bg);
-  backdrop-filter: blur(6px); /* schöner Effekt, optional */
   z-index: 1000;
 }
 
@@ -73,4 +72,28 @@ body {
 }
 .swiper-button-naechste {
     right: 42px;
+}
+
+
+.swiper {
+  width: 100%;
+  height: 85vh; /* Beispiel: Nutze 85% der Bildschirmhöhe */
+}
+
+/* Wichtig: Sorge dafür, dass die Bilder den gesamten verfügbaren Platz im Slide einnehmen */
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  /* Zentriert den Inhalt vertikal */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  /* Das Bild deckt den Bereich ab, ohne die Proportionen zu verzerren */
+  object-fit: cover; 
 }
