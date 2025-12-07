@@ -56,40 +56,25 @@ body {
 
 
 
-.swiper-button-vorherige,
-.swiper-button-naechste {
-    position: absolute;
-    background-color: white;
-    width: 35px; /* Etwas größer für bessere Klickfläche */
-    height: 35px; /* Etwas größer für bessere Klickfläche */
-    border-radius: 50%; /* Runde Form */
-    top: 50%;
-    transform: translateY(-50%);
-    z-index: 1000; /* Sehr hoher Wert, um Klick-Konflikte zu vermeiden */
-    cursor: pointer; /* Zeigt, dass es klickbar ist */
-    
-    /* Zum Zentrieren des Pfeil-Inhalts */
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.swiper {
+  width: 100%;
+  height: 85vh; /* Beispiel: Nutze 85% der Bildschirmhöhe */
 }
 
-.swiper-button-vorherige {
-    left: 10px; /* Näher an den Rand */
-}
-.swiper-button-naechste {
-    right: 10px; /* Näher an den Rand */
-}
-
-/* Inhalt der Pfeile hinzufügen */
-.swiper-button-vorherige::after {
-    content: '←'; 
-    font-size: 18px; 
-    color: black; 
+/* Wichtig: Sorge dafür, dass die Bilder den gesamten verfügbaren Platz im Slide einnehmen */
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  /* Zentriert den Inhalt vertikal */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.swiper-button-naechste::after {
-    content: '→'; 
-    font-size: 18px; 
-    color: black;
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  /* Das Bild deckt den Bereich ab, ohne die Proportionen zu verzerren */
+  object-fit: cover; 
 }
