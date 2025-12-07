@@ -96,9 +96,6 @@ body {
     grid-area: image-1a;
 }
 
-.BWM_draft_2 {
-    grid-area: image-2a;
-}
 
 .BWM_draft_3 {
     grid-area: image-3a;
@@ -112,13 +109,8 @@ body {
     grid-area: image-5a;
 }
 
-.BWM_draft_6 {
-    grid-area: image-6a;
-}
 
-.BWM_draft_7 {
-    grid-area: image-7a;
-}
+
 
 
 
@@ -142,8 +134,7 @@ body {
     "image-4 image-4 image-4 image-4"
     "image-5 image-5 image-5 image-5"
     "image-6 image-6 image-6 image-6" 
-    "image-1a image-2a image-3a image-4a"
-    "image-5a image-6a image-7a ." ; 
+    "image-1a image-3a image-4a image-5a" ; 
     
     
 } 
