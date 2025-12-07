@@ -18,7 +18,6 @@ img {
 
 /* Fixer Header oben */
 .main-header{
-  /* Dein Header ist 12px oben + 12px unten padding + Höhe des Inhalts (ca. 12px line-height) = ca. 36px - 40px */
   position: fixed;
   top: 0;
   left: 0;
@@ -29,6 +28,16 @@ img {
   padding: 12px 20px;
   background: var(--header-bg);
   z-index: 1000;
+}
+
+
+/* Links / Rechts */
+.header-left,
+.header-right{
+  font-size: 12px;
+  line-height:1;
+  text-transform: none;
+  color: white;
 }
 
 /* ... (Deine Header-Styles und Media Queries hier) ... */
