@@ -39,8 +39,13 @@ img {
   text-transform: none;
   color: white;
 }
+.content{
+  padding: 100px 20px 40px; /* top padding mindestens Headerhöhe */
+  max-width: 1100px;
+  margin: 0 auto;
+}
 
-/* ... (Deine Header-Styles und Media Queries hier) ... */
+
 
 /* Hintergrundfarbe */
 body {
@@ -76,4 +81,22 @@ body {
   height: 100%; /* WICHTIG: Volle Höhe des Slides (der jetzt fast 100vh ist) */
   /* Das Bild deckt den Bereich ab, ohne die Proportionen zu verzerren (es wird zugeschnitten) */
   object-fit: cover; 
+}
+
+.swiper-button-vorherige,
+.swiper-button-naechste {
+    position: absolute;
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 100;
+}
+.swiper-button-vorherige {
+    left: 42px;
+}
+.swiper-button-naechste {
+    right: 42px;
 }
