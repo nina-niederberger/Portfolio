@@ -56,25 +56,20 @@ body {
 
 
 
-.swiper {
-  width: 100%;
-  height: 85vh; /* Beispiel: Nutze 85% der Bildschirmhöhe */
+.swiper-button-vorherige,
+.swiper-button-naechste {
+    position: absolute;
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 100;
 }
-
-/* Wichtig: Sorge dafür, dass die Bilder den gesamten verfügbaren Platz im Slide einnehmen */
-.swiper-slide {
-  text-align: center;
-  font-size: 18px;
-  /* Zentriert den Inhalt vertikal */
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.swiper-button-vorherige {
+    left: 42px;
 }
-
-.swiper-slide img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  /* Das Bild deckt den Bereich ab, ohne die Proportionen zu verzerren */
-  object-fit: cover; 
+.swiper-button-naechste {
+    right: 42px;
 }
