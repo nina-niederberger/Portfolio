@@ -92,6 +92,34 @@ body {
     grid-area: image-6;
 }
 
+.BWM_draft_1 {
+    grid-area: image-1a;
+}
+
+.BWM_draft_2 {
+    grid-area: image-2a;
+}
+
+.BWM_draft_3 {
+    grid-area: image-3a;
+}
+
+.BWM_draft_4 {
+    grid-area: image-4a;
+}
+
+.BWM_draft_5 {
+    grid-area: image-5a;
+}
+
+.BWM_draft_6 {
+    grid-area: image-6a;
+}
+
+.BWM_draft_7 {
+    grid-area: image-7a;
+}
+
 
 
 
@@ -113,7 +141,9 @@ body {
     "image-3 image-3 image-3 image-3 "
     "image-4 image-4 image-4 image-4"
     "image-5 image-5 image-5 image-5"
-    "image-6 image-6 image-6 image-6" ;
+    "image-6 image-6 image-6 image-6" 
+    "image-1a image-2a image-3a image-4a"
+    "image-5a image-6a image-7a ." ; 
     
     
 } 
