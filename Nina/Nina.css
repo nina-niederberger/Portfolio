@@ -162,7 +162,7 @@ body {
   gap: 15px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-areas:
-    "hero hero hero hero"
+   "hero hero hero hero"
     "title title title title "
     "text text . ."
     "caption caption . ."
@@ -171,7 +171,7 @@ body {
     "image-5a image-6a image-7a image-8a"
     "image-9a image-10a image-11a image-12a"
     "image-13a image-14a image-15a image-16a"
-    "image-17a image-18a image-19a image-20" ;
+    "image-17a image-18a image-19a image-20a" ;
     
 } 
 
