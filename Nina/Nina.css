@@ -147,42 +147,6 @@ body {
     grid-area: image-18a;
 }
 
-.Nina_draft_19 {
-    grid-area: image-19a;
-}
-
-.Nina_draft_20 {
-    grid-area: image-20a;
-}
-
-.Nina_draft_21 {
-    grid-area: image-21a;
-}
-
-.Nina_draft_22 {
-    grid-area: image-22a;
-}
-
-.Nina_draft_23 {
-    grid-area: image-23a;
-}
-
-.Nina_draft_24 {
-    grid-area: image-24a;
-}
-
-.Nina_draft_25 {
-    grid-area: image-25a;
-}
-
-.Nina_draft_26 {
-    grid-area: image-26a;
-}
-
-.Nina_draft_27 {
-    grid-area: image-27a;
-}
-
 .Nina_draft_28 {
     grid-area: image-28a;
 }
@@ -210,10 +174,8 @@ body {
     "image-5a image-6a image-7a image-8a"
     "image-9a image-10a image-11a image-12a"
     "image-13a image-14a image-15a image-16a"
-    "image-17a image-18a image-19a image-20a"
-    "image-21a image-22a image-23a image-24a"
-    "image-25a image-26a image-27a image-28a"
-    "image-29a image-30a . ." ;
+    "image-17a image-18a image-28a image-29"
+    "image-30a . . ." ;
 } 
 
 .nav {
