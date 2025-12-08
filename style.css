@@ -100,3 +100,15 @@ body {
 .swiper-button-naechste {
     right: 42px;
 }
+
+
+/* Styling der Punkte-Paginierung */
+.swiper-pagination-bullet {
+    background: rgba(255, 255, 255, 0.5); /* Semi-transparente weiße Punkte */
+    opacity: 1; 
+}
+
+/* Styling des aktiven Punktes */
+.swiper-pagination-bullet-active {
+    background: white; /* Aktiver Punkt ist voll weiß */
+}
