@@ -18,7 +18,6 @@ html,body{
   align-items: center;
   padding: 12px 20px;
   background: var(--header-bg);
-  backdrop-filter: blur(6px); /* schöner Effekt, optional */
   z-index: 1000;
 }
 
@@ -148,6 +147,77 @@ body {
     display: block; 
 }
 
+.Blickwechsel_draft_1 {
+    grid-area: image-1a;
+}
+
+.Blickwechsel_draft_2 {
+    grid-area: image-2a;
+}
+
+.Blickwechsel_draft_3 {
+    grid-area: image-3a;
+}
+
+.Blickwechsel_draft_4 {
+    grid-area: image-4a;
+}
+
+.Blickwechsel_draft_5 {
+    grid-area: image-5a;
+}
+
+.Blickwechsel_draft_6 {
+    grid-area: image-6a;
+}
+
+.Blickwechsel_draft_7 {
+    grid-area: image-7a;
+}
+
+.Blickwechsel_draft_8 {
+    grid-area: image-8a;
+}
+
+.Blickwechsel_draft_9 {
+    grid-area: image-9a;
+}
+
+.Blickwechsel_draft_10 {
+    grid-area: image-10a;
+}
+
+.Blickwechsel_draft_11 {
+    grid-area: image-11a;
+}
+
+.Blickwechsel_draft_12 {
+    grid-area: image-12a;
+}
+
+.Blickwechsel_draft_13 {
+    grid-area: image-13a;
+}
+
+.Blickwechsel_draft_14 {
+    grid-area: image-14a;
+}
+
+.Blickwechsel_draft_15 {
+    grid-area: image-15a;
+}
+
+.Blickwechsel_draft_16 {
+    grid-area: image-16a;
+}
+
+.Blickwechsel_draft_17 {
+    grid-area: image-17a;
+}
+
+.Blickwechsel_draft_18 {
+    grid-area: image-18a;
+}
 
 .Blickwechsel-grid {
   display: grid;
@@ -167,7 +237,12 @@ body {
     "image-8 image-8 image-9 image-9"
     "image-10 image-10 image-11 image-11" 
     "caption-3 caption-3 . ."
-    "image-13 image-13 video-1 video-1" ;
+    "image-13 image-13 video-1 video-1" 
+    "image-1a image-2a image-3a image-4a"
+    "image-5a image-6a image-7a image-8a"
+    "image-9a image-10a image-11a image-12a"
+    "image-13a image-14a image-15a image-16a"
+    "image-17a image-18a . ." ;
 
 } 
 
