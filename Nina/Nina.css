@@ -72,6 +72,9 @@ body {
   grid-area: image-1;  
 }
 
+.Nina-grid__image-2 {
+    grid-area: image-2;
+}
 
 
 
@@ -83,9 +86,6 @@ body {
     grid-area: image-2a;
 }
 
-.Nina_draft_3 {
-    grid-area: image-3a;
-}
 
 .Nina_draft_4 {
     grid-area: image-4a;
@@ -166,12 +166,12 @@ body {
     "title title title title "
     "text text . ."
     "caption caption . ."
-    "image-1 image-1 . . "
-    "image-1a image-2a image-3a image-4a" 
-    "image-5a image-6a image-7a image-8a"
-    "image-9a image-10a image-11a image-12a"
-    "image-13a image-14a image-15a image-16a"
-    "image-17a image-18a image-19a image-20a" ;
+    "image-1 image-1 image-2 image-2 "
+    "image-1a image-2a image-4a image-5a" 
+    "image-6a image-7a image-8a image-9a"
+    "image-10a image-11a image-12a image-13a"
+    "image-14a image-15a image-16a image-17a"
+    "image-18a image-19a image-20a ." ;
     
 } 
 
