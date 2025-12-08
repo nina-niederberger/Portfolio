@@ -147,17 +147,14 @@ body {
     grid-area: image-18a;
 }
 
-.Nina_draft_28 {
-    grid-area: image-28a;
+.Nina_draft_19 {
+    grid-area: image-19a;
 }
 
-.Nina_draft_29 {
-    grid-area: image-29a;
+.Nina_draft_20 {
+    grid-area: image-20a;
 }
 
-.Nina_draft_30 {
-    grid-area: image-30a;
-}
 
 .Nina-grid {
   display: grid;
@@ -174,8 +171,8 @@ body {
     "image-5a image-6a image-7a image-8a"
     "image-9a image-10a image-11a image-12a"
     "image-13a image-14a image-15a image-16a"
-    "image-17a image-18a image-28a image-29"
-    "image-30a . . ." ;
+    "image-17a image-18a image-19a image-20" ;
+    
 } 
 
 .nav {
