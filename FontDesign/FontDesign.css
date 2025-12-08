@@ -9,14 +9,6 @@ html,body{
 
 }
 
-:root {
-  /* Globale Farbvariablen definieren, damit CSS funktioniert */
-  --bg: black;        
-  --text: white;      
-  --header-bg: rgba(0, 0, 0, 0.8); /* Semi-transparentes Schwarz */
-}
-
-
 .main-header{
   position: fixed;
   top: 0;
@@ -110,7 +102,7 @@ body {
   gap: 15px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-areas:
-    "hero hero hero hero"
+   "hero hero hero hero"
     "title title title title "
     "text text . ."
     "caption caption . ."
