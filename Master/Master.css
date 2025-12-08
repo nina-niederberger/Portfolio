@@ -76,7 +76,25 @@ body {
   grid-area: image-2;
 }
 
+.Master-grid__video-1 {
+    grid-area: video-1;
+}
 
+.Master-grid__draft-1 {
+    grid-area: image-1a;
+}
+
+.Master-grid__draft-2 {
+    grid-area: image-2a;
+}
+
+.Master-grid__draft-3 {
+    grid-area: image-3a;
+}
+
+.Master-grid__image-4 {
+    grid-area: image-4a;
+}
 
 
 .Master-grid {
@@ -89,7 +107,9 @@ body {
     "title title title title "
     "text text . ."
     "caption caption . ."
-    "image-1 image-1 image-2 image-2" ;
+    "image-1 image-1 image-2 image-2" 
+    "video-1 video-1 . ."
+    "image-1a image-2a image-3a image-4a" ;
 } 
 
 .nav {
