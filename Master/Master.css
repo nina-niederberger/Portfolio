@@ -80,19 +80,19 @@ body {
     grid-area: video-1;
 }
 
-.Master-grid__draft_1 {
+.Master_draft_1 {
     grid-area: image-1a;
 }
 
-.Master-grid__draft_2 {
+.Master_draft_2 {
     grid-area: image-2a;
 }
 
-.Master-grid__draft_3 {
+.Master_draft_3 {
     grid-area: image-3a;
 }
 
-.Master-grid__image_4 {
+.Master_image_4 {
     grid-area: image-4a;
 }
 
