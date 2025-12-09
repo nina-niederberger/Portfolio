@@ -134,15 +134,9 @@ body {
 
 .Blickwechsel-grid__video-1 {
     grid-area: video-1;
-}
-
-.Blickwechsel-grid__video-1 {
-    /* Macht das Video so breit wie der Container, in dem es liegt (die Grid-Zelle) */
-    width: 50%; 
+     width: 50%; 
     height: auto;
-    /* Passt die Höhe automatisch an, um das Seitenverhältnis zu erhalten */
-    height: auto; 
-
+    
 }
 
 .Blickwechsel_draft-1 {
@@ -222,6 +216,8 @@ body {
   padding: 0 15px 15px 15px;
   gap: 15px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  /* HINZUFÜGEN: Abstand unter dem fixierten Header schaffen */
+  margin-top: 36px;
   grid-template-areas:
     "hero hero hero hero"
     "title title title title "
