@@ -89,6 +89,30 @@ body {
     grid-area: image-5;
 }
 
+.London-grid__image-6 {
+    grid-area: image-6;
+}
+
+.London-grid__image-7 {
+    grid-area: image-7;
+}
+
+.London-grid__image-8 {
+    grid-area: image-8;
+}
+
+.London-grid__image-9 {
+    grid-area: image-9;
+}
+
+.London-grid__image-10 {
+    grid-area: image-10;
+}
+
+.London-grid__image-11 {
+    grid-area: image-11;
+}
+
 .London_draft_1 {
     grid-area: image-1a;
 }
