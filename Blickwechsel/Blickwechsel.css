@@ -138,8 +138,8 @@ body {
 
 .Blickwechsel-grid__video-1 {
     /* Macht das Video so breit wie der Container, in dem es liegt (die Grid-Zelle) */
-    width: 100%; 
-    
+    width: 816px; 
+    height: auto;
     /* Passt die Höhe automatisch an, um das Seitenverhältnis zu erhalten */
     height: auto; 
     

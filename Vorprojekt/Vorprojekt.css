@@ -22,8 +22,8 @@ html,body{
 }
 
 /* Links / Rechts */
-.header-left,
-.header-right{
+.header-left a,
+.header-right a{
   font-size: 12px;
   line-height:1;
   color: white;
