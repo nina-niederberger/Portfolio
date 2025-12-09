@@ -32,8 +32,8 @@ img {
 
 
 /* Links / Rechts */
-.header-left,
-.header-right{
+.header-left a,
+.header-right a{
   font-size: 12px;
   line-height:1;
   text-transform: none;
