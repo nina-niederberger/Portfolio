@@ -4,7 +4,7 @@ html,body{
   margin:0;
   background:var(--bg);
   color:var(--text);
-  font-family: "Berthold Akzidenz Grotesk", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: "Bitcount Prop Single";
   -webkit-font-smoothing:antialiased;
   -moz-osx-font-smoothing:grayscale;
 
