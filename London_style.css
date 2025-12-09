@@ -69,47 +69,47 @@ body {
   margin-top: -80px;
 }
 
-.London-grid__image-1 {
+.London-grid__image_1 {
   grid-area: image-1;  
 }
 
-.London-grid__image-2 {
+.London-grid__image_2 {
   grid-area: image-2;
 }
 
-.London-grid__image-3 {
+.London-grid__image_3 {
   grid-area: image-3;  
 }
 
-.London-grid__image-4 {
+.London-grid__image_4 {
   grid-area: image-4;  
 }
 
-.London-grid__image-5 {
+.London-grid__image_5 {
     grid-area: image-5;
 }
 
-.London-grid__image-6 {
+.London-grid__image_6 {
     grid-area: image-6;
 }
 
-.London-grid__image-7 {
+.London-grid__image_7 {
     grid-area: image-7;
 }
 
-.London-grid__image-8 {
+.London-grid__image_8 {
     grid-area: image-8;
 }
 
-.London-grid__image-9 {
+.London-grid__image_9 {
     grid-area: image-9;
 }
 
-.London-grid__image-10 {
+.London-grid__image_10 {
     grid-area: image-10;
 }
 
-.London-grid__image-11 {
+.London-grid__image_11 {
     grid-area: image-11;
 }
 
@@ -157,9 +157,11 @@ body {
     "title title title title "
     "text text . ."
     "caption caption . ."
-    "image-1 image-1 image-2 image-2"
-    "image-5 image-5 image-5 ."
-    "image-3 image-3 image-4 image-4"
+    "image-1 image-1 image-3 image-3"
+    "image-4 image-4 image-5 image-5"
+    "image-6 image-6 image-7 image-7"
+    "image-8 image-8 image-9 image-9"
+    "image-10 image-10 image-11 image-11"
     "image-1a image-2a image-3a image-4a" 
     "image-5a image-6a image-7a image-8a";
 } 

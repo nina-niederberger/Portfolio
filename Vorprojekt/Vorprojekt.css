@@ -88,9 +88,6 @@ body {
     grid-area: image-5;
 }
 
-.Vorprojekt-grid__image-6 {
-    grid-area: image-6;
-}
 
 
 .Vorprojekt_draft-1 {
@@ -155,7 +152,6 @@ body {
     "image-1 image-1 image-1 image-1"
     "image-2 image-2 image-3 image-3"
     "image-4 image-4 image-5 image-5"
-    "image-6 image-6 . ." 
     "image-1a image-2a image-3a image-4a"
     "image-5a image-6a image-7a image-8a"
     "image-9a image-10a image-11a image-12a" ;

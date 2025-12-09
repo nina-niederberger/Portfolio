@@ -134,8 +134,7 @@ body {
 
 .Blickwechsel-grid__video-1 {
     grid-area: video-1;
-     width: 50%; 
-    height: auto;
+    
     
 }
 
@@ -216,7 +215,6 @@ body {
   padding: 0 15px 15px 15px;
   gap: 15px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  /* HINZUFÜGEN: Abstand unter dem fixierten Header schaffen */
   margin-top: 36px;
   grid-template-areas:
     "hero hero hero hero"
@@ -252,3 +250,11 @@ img {
   max-width: 100%;
   display: block;
 }
+
+
+video {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+

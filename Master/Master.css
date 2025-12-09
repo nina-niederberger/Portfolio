@@ -124,3 +124,16 @@ img {
   max-width: 100%;
   display: block;
 }
+
+
+video {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.Master-grid__video-1 video {
+  width: 100%;
+  height: auto;
+  object-fit: cover; 
+}
