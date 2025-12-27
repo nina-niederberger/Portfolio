@@ -1,11 +1,16 @@
+ @font-face {
+    font-family: 'Bitcount Prop Single';
+    src: url('Bitcount_Prop_Single/static/BitcountPropSingle-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+}
+
 html,body{
   height:100%;
   margin:0;
   background:var(--bg);
   color:var(--text);
-  font-family: "Bitcount Prop Single";
-  -webkit-font-smoothing:antialiased;
-  -moz-osx-font-smoothing:grayscale;
 
 }
 .main-header{

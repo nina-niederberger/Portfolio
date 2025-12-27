@@ -1,3 +1,11 @@
+ @font-face {
+    font-family: 'Bitcount Prop Single';
+    src: url('Bitcount_Prop_Single/static/BitcountPropSingle-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+}
+
 html,body{
   /* 1. Volle Höhe und Scrollen verhindern */
   height:100%;
@@ -7,12 +15,6 @@ html,body{
   background:var(--bg);
   color:var(--text);
 
- @font-face {
-    font-family: 'Bitcount Prop Single';
-    src: url('Bitcount_Prop_Single/static/BitcountPropSingle-Medium.woff2') format('woff2');
-    font-weight: 500;
-    font-style: normal;
-}
 }
 
 img {
