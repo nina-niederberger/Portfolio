@@ -1,9 +1,10 @@
  @font-face {
     font-family: 'Bitcount Prop Single';
-    src: url('Bitcount_Prop_Single/static/BitcountPropSingle-Medium.woff2') format('woff2');
+    src: url('/Schrift/Bitcount_Prop_Single/static/BitcountPropSingle-Medium.woff2') format('woff2'),
+         url('/Schrift/Bitcount_Prop_Single/static/BitcountPropSingle-Medium.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
-    color: white;
+    font-display: swap;
 }
 
 html,body{
@@ -11,6 +12,7 @@ html,body{
   margin:0;
   background:var(--bg);
   color:var(--text);
+  font-family: 'Bitcount Prop Single', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
 
 }
 .main-header{
@@ -22,8 +24,11 @@ html,body{
   justify-content: space-between;
   align-items: center;
   padding: 12px 20px;
-  background: var(--header-bg);
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   z-index: 1000;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 /* Links / Rechts */
@@ -32,6 +37,13 @@ html,body{
   font-size: 12px;
   line-height:1;
   color: white;
+  text-decoration: none;
+  transition: opacity 0.3s ease;
+}
+
+.header-left a:hover,
+.header-right a:hover{
+  opacity: 0.7;
 }
 
 body {
@@ -173,7 +185,41 @@ body {
     grid-area: image-9a;
 }
 
+.Blickwechsel_draft-10 {
+    grid-area: image-10a;
+}
 
+.Blickwechsel_draft-11 {
+    grid-area: image-11a;
+}
+
+.Blickwechsel_draft-12 {
+    grid-area: image-12a;
+}
+
+.Blickwechsel_draft-13 {
+    grid-area: image-13a;
+}
+
+.Blickwechsel_draft-14 {
+    grid-area: image-14a;
+}
+
+.Blickwechsel_draft-15 {
+    grid-area: image-15a;
+}
+
+.Blickwechsel_draft-16 {
+    grid-area: image-16a;
+}
+
+.Blickwechsel_draft-17 {
+    grid-area: image-17a;
+}
+
+.Blickwechsel_draft-18 {
+    grid-area: image-18a;
+}
 
 .Blickwechsel-grid {
   display: grid;
@@ -196,7 +242,10 @@ body {
     "caption-3 caption-3 . ."
     "image-13 image-13 video-1 video-1" 
     "image-1a image-2a image-3a image-4a"
-    "image-6a image-7a image-8a image-9a" ;
+    "image-6a image-7a image-8a image-9a"
+    "image-10a image-11a image-12a image-13a"
+    "image-14a image-15a image-16a image-17a"
+    "image-18a . . ." ;
 
 } 
 
